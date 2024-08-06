@@ -1,0 +1,687 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    background-color: white;
+}
+.items{
+    display: grid;
+    background-color: rgba(0, 0, 0, 0.87);
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-evenly;
+}
+.photo1{
+    width: 300px;
+    padding-left: 200px;
+    height: 200px;
+}
+.content{
+    list-style: none;
+    display: inline;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-top: 100px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    font-size: 25px;
+}
+a:hover{
+    color: red;
+}
+.box1{
+  text-transform: capitalize;
+  border-radius: 50px;
+  width: 250px;
+  background-color: white;
+  margin-top: 70px;
+  height: 80px;
+  color: black;
+  font-size: 20px;  
+}
+.box2{
+    text-transform: capitalize;
+    border-radius: 50px;
+    width: 250px;
+    background-color: rgb(248, 33, 33);
+    margin-top: 70px;
+    height: 80px;
+    color:white;
+    font-size: 20px;  
+}
+.button1{
+    margin-left: 40px;
+}
+button:hover{
+    color: rgb(207, 10, 10);
+}
+.fa-solid{
+    font-size: 40px;
+    margin-left: 10px;
+}
+.photo2{
+    height: 75vh;
+    width: 100vw;
+}
+.brand{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+.text1{
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+  }
+  .text2{
+    color: gray;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 28px;
+    padding-top: 20px;
+  
+  }
+  .photo3{
+    width: 330px;
+    height: 200px;
+    padding-left: 450px;
+    padding-top: 70px;
+  }
+  .photo4{
+    width:300px ;
+    height:200px ;
+    padding-left: 80px;
+  }
+  .photo5{
+    width:300px ;
+    height:200px ;
+    padding-left: 80px;
+  }
+  .box3{
+    text-transform: capitalize;
+    border-radius: 50px;
+    width: 250px;
+    background-color:black;
+    margin-top: 70px;
+    height: 80px;
+    color: white;
+    font-size: 20px; 
+    margin-left: 480px;
+    bottom: 1px white;
+  }
+  .box4{
+    text-transform: capitalize;
+    border-radius: 50px;
+    width: 250px;
+    background-color: black;
+    margin-top: 70px;
+    height: 80px;
+    color: white;
+    font-size: 20px;  
+    margin-left: 150px;
+    bottom: 1px white;
+  }
+  .box5{
+    text-transform: capitalize;
+    border-radius: 50px;
+    width: 250px;
+    background-color:rgba(0, 0, 0, 0.884);
+    margin-top: 70px;
+    height: 80px;
+    color:white;
+    font-size: 20px; 
+    margin-left:150px ;
+    bottom: 1px white; 
+  }
+  .franchise{
+    background-color: rgba(0, 0, 0, 0.932);
+    height: 200vh;
+    width: 100vw;
+  }
+  .text4{
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 70px;
+  }
+  .text5{
+    color: gray;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 28px;
+    padding-top: 20px;
+ }
+ .text6{
+    text-transform: capitalize;
+    font-size: 35px;
+    color: red;
+    padding-top: 100px;
+    margin-left: 200px;
+ }
+.text7{
+    text-transform: capitalize;
+    font-size: 35px;
+    padding-top: 20px;
+    margin-left: 200px;
+    color: white;
+}
+.text8{
+    text-transform: capitalize;
+    font-size: 28px;
+    padding-top: 20px;
+    margin-left: 200px;
+    color: gray;
+}
+.text9{
+    text-transform: capitalize;
+    font-size: 28px;
+    padding-top: 20px;
+    margin-left: 200px;
+    color: gray;
+}
+.fa-solid{
+    padding-right:15px ;
+}
+.box6{
+    text-transform: capitalize;
+    border-radius: 50px;
+    width: 250px;
+    background-color:rgba(0, 0, 0, 0.781);
+    margin-top: 70px;
+    height: 80px;
+    color:white;
+    font-size: 20px; 
+    margin-left:200px ;
+    bottom: 1px white; 
+
+}
+.photo6{
+    height: 40vh;
+    width:35vw;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+.islamabad{
+    display: inline-block;
+}
+.pic1{
+    display: inline-block;
+}
+.photo7{
+    height: 40vh;
+    width:35vw;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+.faislabad{
+    display: inline-block;
+}
+.pic2{
+    display: inline-block;
+}
+.text10{
+    text-transform: capitalize;
+    font-size: 35px;
+    color: red;
+    padding-top: 50px;
+    margin-left: 50px;
+ }
+.text11{
+    text-transform: capitalize;
+    font-size: 35px;
+    padding-top: 20px;
+    margin-left: 50px;
+    color: white;
+}
+.text12{
+    text-transform: capitalize;
+    font-size: 28px;
+    padding-top: 20px;
+    margin-left: 50px;
+    color: gray;
+}
+.text13{
+    text-transform: capitalize;
+    font-size: 28px;
+    padding-top: 20px;
+    margin-left: 50px;
+    color: gray;
+}
+.box7{
+    text-transform: capitalize;
+    border-radius: 50px;
+    width: 250px;
+    background-color:rgba(0, 0, 0, 0.781);
+    margin-top: 70px;
+    height: 80px;
+    color:white;
+    font-size: 20px; 
+    margin-left:50px ;
+    bottom: 1px white;
+ }
+ .text14{
+    text-transform: capitalize;
+    font-size: 35px;
+    color: red;
+    padding-top: 100px;
+    margin-left: 200px;
+ }
+.text15{
+    text-transform: capitalize;
+    font-size: 35px;
+    padding-top: 20px;
+    margin-left: 200px;
+    color: white;
+}
+.text16{
+    text-transform: capitalize;
+    font-size: 28px;
+    padding-top: 20px;
+    margin-left: 200px;
+    color: gray;
+}
+.text17{
+    text-transform: capitalize;
+    font-size: 28px;
+    padding-top: 20px;
+    margin-left: 200px;
+    color: gray;
+}
+.box8{
+    text-transform: capitalize;
+    border-radius: 50px;
+    width: 250px;
+    background-color:rgba(0, 0, 0, 0.781);
+    margin-top: 70px;
+    height: 80px;
+    color:white;
+    font-size: 20px; 
+    margin-left:200px ;
+    bottom: 1px white;
+ }
+.photo8{
+    height: 40vh;
+    width:35vw;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.bahawalpur{
+    display: inline-block;
+}
+.pic3{
+    display: inline-block;
+}
+.fa-phone-volume:hover{
+    color: red;
+}
+.fa-solid:hover{
+    color: red;
+}
+.box8{
+    margin-left: 250px;
+}
+.village-franchise{
+    background-color: rgba(0, 0, 0, 0.856);
+    height:100vh;
+    width: 100vw;
+}
+.type1{
+    color: white;
+    padding-top: 20px;
+    font-size:90px;
+    margin-left: 200px;
+    text-align: center;
+}
+.png1{
+   padding-top: 50px;
+   height: 60vh;
+   width: 50vw;
+}
+.picture1{
+    display: inline-block;
+}
+.village1{
+    display: inline-block;
+}
+.type2{
+    color: red;
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-size: 40px;
+    margin-left: 100px;   
+}
+.type3{
+    color: white;
+    padding-top: 20px;
+    font-size:40px ;
+    margin-left: 100px;   
+}
+.type4{
+    color: white;
+    padding-top: 10px;
+    font-size:25px ;
+    margin-left: 100px;
+}
+.type5{
+    color: white;
+    padding-top: 30px;
+    font-size:25px ;
+    margin-left: 100px;
+}
+.dabba1{
+    text-transform: capitalize;
+    border-radius: 50px;
+    width: 250px;
+    background-color: green;
+    margin-top: 70px;
+    height: 80px;
+    color:white;
+    font-size: 20px; 
+    margin-left:100px ;
+    bottom: 1px white; 
+}
+.coming-soon{
+    height: 230vh;
+    width: 100vw;
+    background-color: black;
+}
+.type6{
+    color: white;
+    padding-top: 20px;
+    font-size:90px;
+    margin-left: 200px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.block1{
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    margin-left: 150px;
+    display: inline-block;
+}
+.block2{
+    height: 300px;
+    width: 500px;
+    background-color: white; 
+    margin-top: 100px;
+    margin-left: 100px;
+    display: inline-block;
+}
+.block3{
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+    display:inline-block;
+}
+.block4{
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 150px;
+    display: inline-block;
+}
+.block5{
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+    display: inline-block;
+}
+.block6{
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+    display: inline-block;
+}
+.block7{
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 750px;
+    display: inline-block;
+}
+.type19{
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 70px;
+    padding-top: 100px;
+}
+.tasveer1{
+    height: 350px;
+    width: 350px;
+    display: inline-block;
+}
+.tasveer2{
+    height: 350px;
+    width: 350px;
+    display: inline-block;
+    padding-left: 30px;
+}
+.tasveer3{
+    height: 350px;
+    width: 350px;
+    display: inline-block;
+    padding-left: 30px;
+}
+.tasveer4{
+    height: 350px;
+    width: 350px;
+    display: inline-block;
+    padding-left: 30px;
+}
+.tasveer5{
+    height: 350px;
+    width: 350px;
+    display: inline-block;
+    padding-left: 30px;
+}
+.tasveer{
+    margin-top: 60px;
+    padding: 20px;
+}
+.fa-sharp-duotone{
+    font-size: 50px;
+    padding-top: 20px;
+    margin-left: 230px;  
+} 
+.speech{
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}  
+.speech1{
+   text-align: center;
+   font-size: 35px;
+}
+.end{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.863);
+}
+.png2{
+    width: 250px;
+    height: 200px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.type7{
+   color: gray;
+   font-size: 30px;
+   width: 600px;
+   margin-left: 100px;   
+}
+.type8{
+    color: gray;
+    font-size: 30px;
+    width: 650px;
+    margin-left: 100px;   
+    padding-top: 50px;
+}
+.end1{
+    display: inline-block;
+}
+.type9{
+    color: white;
+   font-size: 30px;
+   text-transform: capitalize;
+   margin-left: 5px;
+   padding: 10px;
+}
+li:hover{
+    color: red;
+}
+li{
+    color: gray;
+   font-size: 30px;
+   text-transform: capitalize; 
+   list-style: none;
+   padding: 20px;
+}
+.end2{
+    display: inline-block;
+}
+.end3{
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 250px;
+}
+
+.type10{
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-left: 5px;
+    padding:  10px;
+}
+.type11{
+    color:gray;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-left: 5px;
+    padding: 10px;   
+}
+.type12{
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-left: 5px;
+    padding: 10px;  
+}
+.type13{
+    color:gray;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-left: 5px;
+    padding: 10px;
+}
+.type14{
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-left: 5px;
+    padding: 10px;   
+}
+.type15{
+    color:gray;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-left: 5px;
+    padding: 10px;    
+}
+.type16{
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-left: 5px;
+    padding: 10px;
+}
+.type17{
+    color:gray;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-left: 5px;
+    padding: 10px;    
+}
+.type13:hover{
+    color: red;
+}
+.type17:hover{
+    color: red; 
+}
+.type15:hover{
+    color: red;
+}
+.end4{
+    display: inline-block;
+    margin-left: 50px;
+    vertical-align:top;
+    margin-top: 220px;
+}
+.type18{
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-left: 20px;
+    padding: 10px;
+}
+.fa-brands{
+    color: red;
+    width: 40px;
+    font-size: 50px;
+    margin-left: 20px;
+    padding-top: 20px;
+
+}
+.fa-brands:hover{
+    color: rgb(124, 12, 12);
+}
+.column1{
+    text-transform: capitalize;
+    border-radius: 5px;
+    width: 250px;
+    background-color:black;
+    margin-top: 40px;
+    height: 100px;
+    color:white;
+    font-size: 20px; 
+    margin-left:30px ;
+    bottom: 1px solid white;
+    display: inline-block; 
+}
+.column2{
+    text-transform: capitalize;
+    border-radius: 5px;
+    width: 250px;
+    background-color:black;
+    margin-top: 40px;
+    height: 100px;
+    color:white;
+    font-size: 20px; 
+    margin-left:30px ;
+    bottom: 1px solid white;
+    display: inline-block;
+}
+.fa-apple{
+    font-size: 50px;
+    margin-right: 20px;
+}
+.fa-google-play{
+    font-size: 40px;
+    margin-right: 20px;
+}
